@@ -1,0 +1,28 @@
+{
+  "name": "react-xstate-context",
+  "version": "1.0.0",
+  "description": "Using xstate with the Context API in React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --inline",
+    "build": "webpack --config ./webpack.config.js --mode production"
+  },
+  "author": "Jon Bellah <hello@jonbellah.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "xstate": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "react-hot-loader": "^4.1.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
